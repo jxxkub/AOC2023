@@ -1,7 +1,7 @@
 ## List of days and solutions:
 
-1. Day 01 | [Part 1](day01/Star1/) | [Part 2](day01/Star2/)
-2. Day 02 | [Part 1](day02/Star1/) | [Part 2](day02/Star2/)
+1. Day 01 | [Part 1](Day01/Star1/) | [Part 2](Day01/Star2/)
+2. Day 02 | [Part 1](Day02/Star1/) | [Part 2](Day02/Star2/)
 
 ## General Information
 
