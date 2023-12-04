@@ -24,7 +24,7 @@ struct Gear {
     vector<int> numbers;
 }
 
-int main(int argc, char* argv[]) {
+int main() {
 
     string line;
     fstream input("input.txt");

@@ -24,7 +24,7 @@ struct Gear {
     vector<int> numbers;
 };
 
-int main(int argc, char* argv[]) {
+int main() {
 
     string line;
     fstream input ("input.txt");
@@ -60,7 +60,7 @@ int main(int argc, char* argv[]) {
             for (int col = n.col - 1; (col <= n.col + n.order); col += col_increment) {
                 if (col < 0 || col >= map[row].size()) continue;
                 if (map[row][col] == '*') {
-                    const int id = map[0].size() * row + col; // each row is the same length
+                    const int id = map[0].size() * row + col;
 
                     auto& gear = gears[id];
                     gear.n++;
